@@ -89,6 +89,9 @@
                     <p>
                         Manage you images and easily share them with your friends
                     </p>
+                    <p>
+                        <a href="{{route("login")}}">Login</a> or <a href="{{route("register")}}">Register</a> and start sharing your images today!
+                    </p>
                 </div>
             </div>
         </div>
