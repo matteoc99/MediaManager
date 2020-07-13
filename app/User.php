@@ -42,11 +42,13 @@ class User extends Authenticatable
      */
     public function __construct()
     {
-        setDefaultRights();
+
+        parent::__construct();
+        $this->setDefaultRights();
     }
 
     private function setDefaultRights(){
-
+        return true;
     }
 
 
